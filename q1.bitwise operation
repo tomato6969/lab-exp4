@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace;
+
+
+
+int main() {
+    int a=5;
+    int b=3;
+    int bitwise_and=a&b;
+    int bitwise_or=a|b;
+    int bitwise_xor=a^b;
+    int bitwise_not=~a;
+    int left_shift=a<<2;
+    int right_shift=a>>1;
+    
+    cout<<"and: "<<bitwise_and<<endl;
+    cout<<"or: "<<bitwise_or<<endl;
+    cout<<"xor: "<<bitwise_xor<<endl;
+    cout<<"not a: "<<bitwise_not<<endl;
+    cout<<"left shift : "<<left_shift<<endl;
+    cout<<"right shift : "<<right_shift<<endl;
+    
+    
+    
+    
+
+    return 0;
+}
+
+OUTPUT:
+and: 1
+or: 7
+xor: 6
+not a: -6
+left shift : 20
+right shift : 2
